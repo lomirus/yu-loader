@@ -1,0 +1,23 @@
+{
+  "name": "yu-loader",
+  "version": "0.1.0",
+  "description": "Why is Yu Loader the God?",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd test && webpack && node ./dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lomirus/yu-loader.git"
+  },
+  "author": "lomirus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lomirus/yu-loader/issues"
+  },
+  "homepage": "https://github.com/lomirus/yu-loader#readme",
+  "devDependencies": {
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
