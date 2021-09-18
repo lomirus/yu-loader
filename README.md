@@ -30,7 +30,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.ma$/i,
+        test: /\.ma(\.js)?$/i,
         loader: "yu-loader",
       },
     ],

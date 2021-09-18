@@ -5,7 +5,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.ma$/,
+                test: /\.ma(\.js)?$/,
                 use: path.resolve('../index.js'),
             },
         ],
