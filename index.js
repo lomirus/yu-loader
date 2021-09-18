@@ -1,3 +1,6 @@
+const { parse, generate } = require('abstract-syntax-tree');
+
 module.exports = function(content) {
-    return content;
+    const ast = parse(content);
+    return generate(ast);
 }
